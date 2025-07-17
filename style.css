@@ -1,0 +1,33 @@
+*{
+    color:purple;
+ 
+}
+body{
+    width:1400px;
+    min-width: 300px;
+    margin:0 auto;
+}
+h1{
+    text-align: center;
+    margin-top:70px;
+}
+div{
+    margin:80px 50px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+div li{
+    font-family: 'Times New Roman', Arial, Helvetica, sans-serif, serif;
+    font-size: 2rem;
+    font-weight:bold;
+    color: purple;
+    list-style: none;
+
+}
+div img{
+    width:300px;
+    height:300px;
+    border-radius: 30px;
+}
