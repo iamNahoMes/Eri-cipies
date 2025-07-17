@@ -26,6 +26,9 @@ div li{
     list-style: none;
 
 }
+div a{
+    text-decoration: none;
+}
 div img{
     width:300px;
     height:300px;
