@@ -1,73 +1,90 @@
 *{
+    margin:0;
+    padding: 0;
     font-family: 'Times New Roman', Arial, Helvetica, sans-serif, serif;
 
  
 }
 body{
+    width: auto;
+    height:auto;
     background-image: url('./cover-images/body.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: left;
+    background-repeat: no-repeat;
 }
 h1{
-    text-align: center;
+   
     margin-top:70px;
-    color:#340aaa
+    color:#8ef131;
+    font-size:50px;
 }
 h2{
-    text-align: center;
-    color:#1b025e;
-    font-size: 2rem;
-    
+    color:#521300e5;   
+    font-size: 45px; 
 }
 h1,
  h2{
-    font-family: nordic;
-}
-.para{
-    max-width:800px;
-    background-color: rgba(243, 220, 145, 0.3);
-    margin:0 auto;
-    padding:10px;
-    text-align: left;
-    color:#222;
-    font-size: 1.5rem;
-    font-weight:530;
-    border-radius: 5px;
+    font-family: Norse, Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 .container{
     background-color: rgba(243, 220, 145, 0.2);
-    max-width: 1600px;
-    min-width: 600px;
+    width: 80%;
     padding:40px;
-    margin: 0 auto;
+    margin:auto;
     border-radius: 15px;
     box-sizing: border-box;
     text-align:center ;
 }
+.para{
+    max-width: 800px;
+    background-color: rgba(243, 220, 145, 0.3);
+    margin:50px auto;
+    padding:10px;
+    text-align: left;
+    color:#521300e5;
+    font-size: 1.5rem;
+    font-weight:549;
+    border-radius: 5px;
+}
+
 .menu{
-    max-width:400px;
-    height:450px;
-    margin:30px 40px 80px 40px ;
-    display: inline-block;
-    box-sizing: border-box;
-    text-align: center;
+    width:auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding:30px;
+    flex-wrap: wrap;
+    
+}
+.item{
+  height:auto;
+  flex:auto;
+ 
+}
+.item img{
+  width:350px;
+  height:350px;
+  flex:1;
+  border-radius: 30px;
 }
 a {
     font-size: 2rem;
     font-weight:bold;
-    color:#2e2929;
+    color:#032750;
     text-decoration: none;
 }
-a img:hover{
+
+.item img:hover{
     width:360px;
     height:360px;
+/*transform: scale(1.03)*/
 }
-a h4:hover{
-    color:#443277;
-    text-decoration: underline;
-}
-div img{
-    width:350px;
-    height:350px;
-    border-radius: 30px;
+
+/*.item a:visited{
+  color:#fff8f1;
+}*/
+.item a:hover{
+    color:#00499c;
+    text-decoration: none;
 }
