@@ -1,0 +1,35 @@
+body{
+    background-image: url("./gaat.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.main{
+  width: min(100%-2rem,600px);/*for a responsive layout*/
+  margin-inline:auto;
+  height:100%;
+  padding:20px;
+  background:linear-gradient(rgba(97, 99, 99, 0.7)50%, rgba(97, 99, 99, 0.7)50%);
+  font-size:25px;
+  font-family:sans-serif;
+  font-weight:bolder;
+  color:#cccccc;
+}
+  .main h1,h2{
+  text-align: center;
+  font-size: 35px;
+  font-family:Norse;
+  font-weight:bold;
+  text-decoration: underline;
+  color:#820303;
+}
+a{
+  text-decoration: none;
+  color:#fcb408;
+}
+a:hover{
+  transition: 0.5s ease;
+  font-weight:lighter;
+}
+.credit{
+  font-size:15px;
+}
